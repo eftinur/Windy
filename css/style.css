@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url(../images/bg-photo.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 45%;
+    height: 100vh;
+}
+
+.weather-status{
+    background-color: rgba(255, 255, 255, 0.241);
+    padding: 12px 14px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(1rem, 2vw, 2rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.5em;
+    color: hsl(0, 0, 80%);
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+  }
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1rem, 5vw, 5rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: hsl(0, 0, 80%);
+    text-transform: capitalize;
+  }
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(.5rem, 3vw, 3rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: hsl(0, 0, 80%);
+    text-transform: capitalize;
+  }
+  h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(1rem, 3vw, 2rem);
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: hsl(0, 0, 80%);
+    text-transform: capitalize;
+  }
+  
+.search-wrapper{
+  display: flex;
+}
+
+.search-wrapper input{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 10px 16px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: block;
+
+}
+
+.search-wrapper input::placeholder{
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.search-wrapper button{
+    border: none;
+    outline: none;
+    background-color:#36454F;
+    color: #fff;
+    width: 15%;
+    padding: 10px 16px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+}
