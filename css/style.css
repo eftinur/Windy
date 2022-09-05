@@ -61,7 +61,7 @@ h3 {
     background-color: #fff;
     border: none;
     outline: none;
-    width: 90%;
+    width: 80%;
     padding: 10px 16px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -81,7 +81,7 @@ h3 {
     outline: none;
     background-color:#36454F;
     color: #fff;
-    width: 10%;
+    width: 20%;
     padding: 10px 16px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
