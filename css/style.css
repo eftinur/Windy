@@ -7,13 +7,10 @@ body {
     background-size: cover;
     background-position: 50% 45%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-main{
-  /* margin-top: 120px; */
-
-}
-
 
 .weather-status{
     background-color: rgba(255, 255, 255, 0.241);
@@ -60,7 +57,7 @@ h3 span{
     font-size: 5rem;
   }
 
-  h4{
+h4{
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
@@ -70,7 +67,7 @@ h3 span{
     text-transform: capitalize;
   }
   
-  span{
+span{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
@@ -78,7 +75,7 @@ h3 span{
     letter-spacing: 0.1em;
     color: hsl(0, 0, 80%);
     text-transform: capitalize;
-  }
+}
   
 .search-wrapper{
   display: flex;
