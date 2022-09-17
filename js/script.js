@@ -13,7 +13,11 @@ const displayTemp = (data) => {
     console.log(data);
     const temperature = document.getElementById('temperature');
     temperature.innerText = data.main.temp;
-    document.getElementById('atmosphere ').innerText = data.weather[0].main;
+    document.getElementById('atmosphere').innerText = data.weather[0].description;
+    document.getElementById('wind').innerText = data.wind.speed;
+    document.getElementById('max').innerText = data.main.temp_max;
+    document.getElementById('min').innerText = data.main.temp_min;
+    console.log(data.wind.speed);
 
 }
 
