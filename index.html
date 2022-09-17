@@ -11,28 +11,31 @@
 </head>
 
 <body>
+
     <div class="container">
 
 
-       <div class="row py-1">
-        <div class="col-lg-6 m-auto py-3">
-            <form action="">
-                <div class="search-wrapper mt-5">
-                    <input type="text" name="" id="search-field" placeholder="Enter a location for Weather ...">
-                    <button id="search-btn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </div>
-            </form>
+       <main>
+        <div class="row py-1 mb-2">
+            <div class="col-lg-6 m-auto py-3">
+                <form action="">
+                    <div class="search-wrapper mt-5">
+                        <input type="text" name="" id="search-field" placeholder="Enter a location for Weather ...">
+                        <button id="search-btn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </div>
+           </div>
+            <div class="weather-status text-white text-center py-5">
+                <img src="images/6006578.svg" alt="">
+                <h1 id="city">___</h1>
+                <h3><span id="temperature"></span>&deg;C</h3>
+                <h4 id="atmosphere">Clouds</h4>
+                <h4>Max:<span id="max"></span> Min:<span id="min"></span></h4>
+                <h4>Wind Speed: <span id="wind"></span></h4>
+            </div>
         </div>
-       </div>
-        <div class="weather-status text-white text-center py-5">
-            <img src="images/6006578.svg" alt="">
-            <h1 id="city">___</h1>
-            <h3><span id="temperature"></span>&deg;C</h3>
-            <h4 id="atmosphere">Clouds</h4>
-            <h4>Max:<span id="max"></span> Min:<span id="min"></span></h4>
-            <h4>Wind Speed: <span id="wind"></span></h4>
-        </div>
-    </div>
+       </main>
 
     <script src="https://kit.fontawesome.com/f9c2e7e205.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>

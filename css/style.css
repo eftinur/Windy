@@ -9,11 +9,16 @@ body {
     height: 100vh;
 }
 
+main{
+  margin-top: 120px;
+
+}
+
+
 .weather-status{
     background-color: rgba(255, 255, 255, 0.241);
 	  backdrop-filter: saturate(180%) blur(20px);
     padding: 12px 14px;
-    margin-top: 120px;
     border-radius: 8px;
 }
 
