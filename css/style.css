@@ -33,12 +33,13 @@ h2 {
   }
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: 400;
     text-align: center;
     letter-spacing: 0.1em;
     color: hsl(0, 0, 80%);
     text-transform: capitalize;
+    padding-top: 8px;
   }
 h3 {
     font-family: 'Montserrat', sans-serif;
