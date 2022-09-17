@@ -114,3 +114,31 @@ span{
     display: block;
     text-align: right;
 }
+
+
+
+/* Media Query CSS */
+
+@media (max-width: 575.98px) {
+  .weather-status img{
+    width: 20%;
+    height: 20%;
+  }
+ 
+h3 span{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .weather-status img{
+    width: 20%;
+    height: 20%;
+  }
+}
+@media (max-width: 991.98px) {
+  .weather-status img{
+    width: 20%;
+    height: 20%;
+  }
+}
