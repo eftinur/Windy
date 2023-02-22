@@ -96,6 +96,7 @@ span {
   border-bottom-left-radius: 8px;
   display: block;
   padding: 14px 14px;
+  font-size: 1.2rem;
 }
 
 .search-wrapper input::placeholder {
